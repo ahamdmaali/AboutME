@@ -1,0 +1,26 @@
+nav{
+    background-color: blue;
+}
+li{
+font-size: large;
+font-weight: bolder;
+display: inline-block;
+margin: 20px;
+}
+h1{
+    font: bold;
+    color: blue;
+    text-align: center;
+}
+p{
+    font-size: x-large;
+    font-style: inherit;
+    text-align: center;
+}
+img{
+    float: left;
+
+}
+h2{
+    text-align: center;
+}
