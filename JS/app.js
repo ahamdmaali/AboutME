@@ -2,7 +2,7 @@
 alert('Welcome to my site')
 let username= prompt('Please, Enter your name!')
 document.getElementById('Greet').innerHTML = 'Welcome ' + username;
-let Q1= prompt('Ahmad, is it my name?');
+let Q1= prompt('Ahmad, is it my name?').toLowerCase();
 if (Q1=== 'yes') {
     alert("You guess my name!")
 } else if(Q1 === 'y'){
@@ -16,7 +16,7 @@ if (Q1=== 'yes') {
 } else {
     alert('Not right')
 }
-let Q2= prompt('civil engineer, am I a civil engineer?');
+let Q2= prompt('civil engineer, am I a civil engineer?').toLowerCase();
 if (Q2=== 'yes') {
     alert("You guess my job!")
 } else if(Q2 === 'y'){
@@ -31,7 +31,7 @@ if (Q2=== 'yes') {
     alert('Not right')
 }
 
-let Q3= prompt('26, is it my age?');
+let Q3= prompt('26, is it my age?').toLowerCase();
 if (Q3 === 'yes') {
     alert("You guess my age!")
 } else if(Q3 === 'y'){
@@ -46,7 +46,7 @@ if (Q3 === 'yes') {
     alert('Not right')
 }
 
-let Q4= prompt('Blue, is it my favorite color?');
+let Q4= prompt('Blue, is it my favorite color?').toLowerCase();
 if (Q4 === 'yes') {
     alert("You guess my favorite color!")
 } else if(Q4 === 'y'){
@@ -61,7 +61,7 @@ if (Q4 === 'yes') {
     alert('Not right')
 }
 
-let Q5= prompt('did you think that you know some thing about me?');
+let Q5= prompt('did you think that you know some thing about me?').toLowerCase();
 if (Q5 === 'yes') {
     alert("Great!")
 } else if(Q5 === 'y'){
@@ -75,4 +75,6 @@ if (Q5 === 'yes') {
 } else {
     alert('If you want, please try reading the first word in every question')
 }
+
+
 console.log(Q1,Q2,Q3,Q4,Q5)
