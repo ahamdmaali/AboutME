@@ -136,6 +136,7 @@ while (i< 4) {
 
 }else if(parseInt(dollars)== 400){
     alert('you guess it');
+    break;
     document.getElementById('CA6').innerHTML = '1';
 }else if(parseInt(dollars)<1000){
     alert('you are close to guess!');
@@ -145,10 +146,15 @@ while (i< 4) {
     alert('you are close to guess!');
     document.getElementById('CA6').innerHTML = '0';
 
+}else if(i=== 4){
+    alert('you loss the game, my dollars was 400');
+}else{
+    alert('you loss the game, my dollars was 400');
 }
   i++;  
 }
-alert('you loss the game, my dollars was 400');
+
+
 
 let carbrand= ['ford','bmw','kia'];
 
@@ -157,12 +163,15 @@ while(i< 10){
     if(car === carbrand[0]){
         alert('great, you guess it!');
         document.getElementById('CA7').innerHTML = '1';
+        break;
     }else if(car === carbrand[1]){
         alert('great, you guess it!');
         document.getElementById('CA7').innerHTML = '1';
+        break;
     }else if(car === carbrand[2]){
         alert('great, you guess it!');
         document.getElementById('CA7').innerHTML = '1';
+        break;
     }else{
         alert('you didnt guess it');
         document.getElementById('CA7').innerHTML = '0';
@@ -171,7 +180,9 @@ while(i< 10){
         
     document.getElementById('car').innerHTML ='my cars favorite brands is '+  carbrand + ' are you guessed them all?'
     i++;
-  } 
+  }
+
+
 
 
 
