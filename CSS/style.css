@@ -16,14 +16,26 @@ p{
     font-size: x-large;
     font-style: inherit;
     text-align: center;
+    position: sticky;
 }
 img{
-    float: left;
+    float: inline-start;
+    border-radius: 20%;
+    height: 250px;
+    width: 250px;
 
 }
 h2{
     text-align: center;
+    position: relative;
 }
 body{
     background-color: lightskyblue
+}
+h3{
+    text-align: center;
+    position: relative;
+    background-color: chartreuse;
+    display: ruby;
+    background-size: initial;
 }
