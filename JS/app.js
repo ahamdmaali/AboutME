@@ -172,7 +172,7 @@ while (i< 4) {
 
 
 
-let carbrand= ['ford','bmw','kia','AUDI','MERCEDES','GOLF','BENTLEY','HONDA','CADILLAC','JEEP'];
+let carbrand= ['ford','bmw','kia','audi','mercrdes','golf','bentley','honda','cadillac','jeep'];
 let guesses= 0
 let car= prompt('can you guess one of my favorite car brand ?').toLowerCase();
 let usercorrect=false;
