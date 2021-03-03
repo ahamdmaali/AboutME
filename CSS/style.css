@@ -1,11 +1,13 @@
 nav{
     background-color: blue;
 }
-li{
-font-size: large;
-font-weight: bolder;
-display: inline-block;
-margin: 20px;
+li.a{
+    display: inline-block;
+    margin: 20px;
+    font-size: large;
+    font-weight: bolder;
+
+
 }
 h1{
     font: bold;
@@ -38,4 +40,7 @@ h3{
     background-color: chartreuse;
     display: ruby;
     background-size: initial;
+}
+ul.a{
+    list-style-type: square;
 }
