@@ -184,15 +184,16 @@ while(guesses<6){
             guesses=6;
             usercorrect=true;
             userscore+=1;
-            break;
+            break;  
         }
-    }
+    
+    } 
  
- if(guesses <= 6 || usercorrect===false){
+ if(guesses <= 6 && usercorrect===false){
      car= prompt('not correct, try again');
     }
  
- if(guesses===5){
+ if(guesses === 6 && usercorrect===false){
      alert('You are out of trials, you can see my top top car brands at the bottom left of my websiye');
     }
 }
