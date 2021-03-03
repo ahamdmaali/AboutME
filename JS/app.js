@@ -198,5 +198,5 @@ while(guesses<6){
     }
 }
 
-alert('your correct answers is ' + userscore + ' so, your gyessing me game score ' + userscore);
+alert('your correct answers is ' + userscore + ' so, your guessing me game score = ' + userscore);
 console.log(Q1,Q2,Q3,Q4,Q5,dollars,car);
